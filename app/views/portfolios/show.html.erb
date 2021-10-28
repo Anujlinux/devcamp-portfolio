@@ -17,12 +17,12 @@
 
 <p>
   <strong>Main image:</strong>
-  <%= @portfolio.main_image %>
+  <%= image_tag @portfolio.main_image %>
 </p>
 
 <p>
   <strong>Thumb image:</strong>
-  <%= @portfolio.thumb_image %>
+  <%= image_tag @portfolio.thumb_image %>
 </p>
 
 <%= link_to 'Edit', edit_portfolio_path(@portfolio) %> |
