@@ -6,6 +6,10 @@ class PortfoliosController < ApplicationController
     @portfolios = Portfolio.all
   end
 
+  def angular
+    @angular_portfolio_items = Portfolio.angular
+  end
+
   # GET /portfolios/1 or /portfolios/1.json
   def show
   end
