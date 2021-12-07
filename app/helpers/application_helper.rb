@@ -14,4 +14,8 @@ module ApplicationHelper
 			content_tag(:p, greeting, class:"source-greeting")
 		end
 	end
+
+	def copyright_generator
+		AnujViewTool::Renderer.copyright 'Anuj Mohatkar', 'Thank you for visiting me.'
+	end
 end

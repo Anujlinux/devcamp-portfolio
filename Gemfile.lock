@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Anujlinux/anuj_view_tool
+  revision: 09a9ad2df479c0d650310c97db640ec2330c063a
+  specs:
+    anuj_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -207,6 +213,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  anuj_view_tool!
   bootsnap (>= 1.4.4)
   bootstrap (~> 5.1.3)
   byebug
