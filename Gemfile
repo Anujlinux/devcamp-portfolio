@@ -57,3 +57,5 @@ gem 'devise', '~> 4.8'
 gem 'bootstrap', '~> 5.1.3'
 
 gem 'anuj_view_tool', git: 'https://github.com/Anujlinux/anuj_view_tool'
+
+gem 'petergate', '~> 3.0'
