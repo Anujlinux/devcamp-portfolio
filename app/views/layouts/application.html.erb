@@ -14,17 +14,26 @@
 
   </head>
 
-  <body>
-    <p class="notice"><%= notice %></p>
-           <p class="alert"><%= alert %></p>
+  <body class="text-center">
 
-           <%= render "shared/nav", location: 'top' %>  
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    
+      <%= render "shared/application_nav" %> 
 
-           <h2>Hello <%= current_user.first_name %></h2> 
-           <%= login_helper %>
-    <%= yield %>
+      
 
-    <%= copyright_generator %>
-    <%= source_helper("application") %>
-    </body>
+      <!-- <h2>Hello <%= current_user.first_name %></h2> -->
+
+      <%= login_helper %>
+    
+      <%= yield %>
+
+      <!--<%= copyright_generator %>
+
+      <%= source_helper("application") %> -->
+
+    </div>
+
+  </body>
+
 </html>
