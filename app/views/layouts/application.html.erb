@@ -24,13 +24,15 @@
 
       <!-- <h2>Hello <%= current_user.first_name %></h2> -->
 
-      <%= login_helper %>
-    
+      <%= login_helper 'nav-link' %>
+
       <%= yield %>
 
-      <!--<%= copyright_generator %>
+      <!--
 
       <%= source_helper("application") %> -->
+
+      <%= render "shared/application_footer" %> 
 
     </div>
 
