@@ -14,26 +14,30 @@
 
   </head>
 
-  <body class="text-center">
+  <body>
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-    
-      <%= render "shared/application_nav" %> 
+     <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
 
-      
+          <%= render "shared/application_nav" %> 
 
-      <!-- <h2>Hello <%= current_user.first_name %></h2> -->
+          
 
-      <%= login_helper 'nav-link' %>
+          <!-- <h2>Hello <%= current_user.first_name %></h2> -->
 
-      <%= yield %>
+          <!-- <%= login_helper 'nav-link' %>-->
 
-      <!--
+          <%= yield %>
 
-      <%= source_helper("application") %> -->
+          <!--
 
-      <%= render "shared/application_footer" %> 
+          <%= source_helper("application") %> -->
 
+          <%= render "shared/application_footer" %> 
+
+        </div>
+      </div>
     </div>
 
   </body>
