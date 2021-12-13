@@ -1,4 +1,4 @@
-<div class="card text-center">
+<div class="card">
   <div class="card-header">
     <h2>Edit <%= resource_name.to_s.humanize %></h2>
   </div>
@@ -46,6 +46,10 @@
             <%= f.submit "Update", class: 'btn btn-info' %>
           </div>
         <% end %>
+        <br />
+        <div class="auth-links">
+          <%= link_to "Back", :back %>
+        </div>
       </div>
 
       <div class="col-md-4">
@@ -56,9 +60,3 @@
   </div>
 </div>
 
-
-
-
-
-
-<%= link_to "Back", :back %>
