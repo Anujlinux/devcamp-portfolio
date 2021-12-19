@@ -1,5 +1,5 @@
 @import "bootstrap";
-
+@import "font-awesome";
 
 /*
  * Globals
@@ -105,6 +105,14 @@ h6, .h6 {
   }
 }
 
+
+/*
+ * social link size
+ */
+
+.social-links li {
+  font-size: 2.5em;
+}
 
 /*
  * Main column and sidebar layout

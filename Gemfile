@@ -59,3 +59,7 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'anuj_view_tool', git: 'https://github.com/Anujlinux/anuj_view_tool'
 
 gem 'petergate', '~> 3.0'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
+
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
