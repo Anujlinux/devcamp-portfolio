@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#"><h3>Anuj_Mohatkar</h3></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li><%= link_to "Home", root_path, class: 'nav-item active nav-link' %></li>
+      <li><%= link_to "About", about_path, class: 'nav-item active nav-link' %></li>
+      <li><%= link_to "Contact", contact_path, class: 'nav-item active nav-link' %></li>
+      <li><%= link_to "Blogs", blogs_path, class: 'nav-item active nav-link' %></li>
+      <li><%= link_to "Portfolio", portfolios_path, class: 'nav-item active nav-link' %></li>
+      <li><%= login_helper 'nav-item active nav-link' %></li>
+    </ul>
+  </div>
+</nav>
