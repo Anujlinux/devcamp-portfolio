@@ -16,3 +16,8 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+$(function(){
+	$('.sortable').sortable();
+});
+alert("function has run") //optional alert to double check
